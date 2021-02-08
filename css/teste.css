@@ -1,0 +1,38 @@
+
+#slider-k {
+background: url(../img/produtos/back.jpg);
+width: 70%;
+height: 300px;
+margin: 20px auto;
+margin-top: 120px;
+margin-bottom: -10px;
+overflow: hidden;
+border-radius: .5rem;
+box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+#slider-k .frame-k{
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 27%;
+height: 100%;
+float: left;
+overflow: hidden;
+border-left: 10px solid #000;
+pointer: cursor;
+box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+transform: skewX(-15deg);
+transition: width 1.2s ease-in-out;
+}
+#slider-k:hover div {width: 300px;cursor: w-resize;}
+#slider-k:hover div:hover {
+width: 500px;}
+
+.frame-k img {
+margin-left: -40px;
+transform: skewX(15deg);
+
+}
+
+
+#slider-k > div:first-child {margin-left: -50px;}
+#slider-k > div:last-child {margin-right: -63px;}
